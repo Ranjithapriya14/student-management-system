@@ -1,0 +1,11 @@
+n=int(input())
+db=[]
+for i in range(n):
+    print(i+1)
+    id=int(input())
+    name=input()
+    age=int(input())
+    dept=input()
+    addr=input()
+    db[id]=[name,age,dept,addr]
+    print(db)
